@@ -1,7 +1,7 @@
 [
   {
     "intRegister": 1610,
-    "register": "0x64A",
+    "register": "0x064A",
     "name_en": "Inverter SN",
     "unit": "",
     "type": "string",
@@ -10,7 +10,7 @@
     "frontend_type": "state"
   },
   {
-    "register": "0x21",
+    "register": "0x0021",
     "name_en": "Total Active power (Grid Meter)",
     "unit": "W",
     "type": "int32be",
@@ -20,7 +20,7 @@
   },
   {
     "intRegister": 27,
-    "register": "0x1B",
+    "register": "0x001B",
     "name_en": "Active power of A phase (Grid Meter)",
     "unit": "W",
     "type": "int32be",
@@ -30,7 +30,7 @@
   },
   {
     "intRegister": 29,
-    "register": "0x1D",
+    "register": "0x001D",
     "name_en": "Active power of B phase (Grid Meter)",
     "unit": "W",
     "type": "int32be",
@@ -40,7 +40,7 @@
   },
   {
     "intRegister": 31,
-    "register": "0x1F",
+    "register": "0x001F",
     "name_en": "Active power of C phase (Grid Meter)",
     "unit": "W",
     "type": "int32be",
@@ -49,7 +49,7 @@
     "frontend_type": "value"
   },
   {
-    "register": "0x40C",
+    "register": "0x0040C",
     "name_en": "Inverter Power Total",
     "unit": "W",
     "type": "int32be",
@@ -58,7 +58,7 @@
     "frontend_type": "value"
   },
   {
-    "register": "0x102",
+    "register": "0x0102",
     "name_en": "Battery SOC",
     "unit": "%",
     "type": "uint16be",
@@ -67,7 +67,7 @@
     "frontend_type": "value"
   },
   {
-    "register": "0x41F",
+    "register": "0x041F",
     "name_en": "PV1 power",
     "unit": "W",
     "type": "int32be",
@@ -76,7 +76,25 @@
     "frontend_type": "value"
   },
   {
-    "register": "0x423",
+    "register": "0x041D",
+    "name_en": "PV1 Voltage",
+    "unit": "V",
+    "type": "int16be",
+    "len": 1,
+    "factor": 0.1,
+    "frontend_type": "value"
+  },
+  {
+    "register": "0x041E",
+    "name_en": "PV1 Current",
+    "unit": "A",
+    "type": "int16be",
+    "len": 1,
+    "factor": 0.1,
+    "frontend_type": "value"
+  },
+  {
+    "register": "0x0423",
     "name_en": "PV2 power",
     "unit": "W",
     "type": "int32be",
@@ -85,7 +103,25 @@
     "frontend_type": "value"
   },
   {
-    "register": "0x427",
+    "register": "0x0421",
+    "name_en": "PV2 Voltage",
+    "unit": "V",
+    "type": "int16be",
+    "len": 1,
+    "factor": 0.1,
+    "frontend_type": "value"
+  },
+  {
+    "register": "0x0422",
+    "name_en": "PV2 Current",
+    "unit": "A",
+    "type": "int16be",
+    "len": 1,
+    "factor": 0.1,
+    "frontend_type": "value"
+  },
+  {
+    "register": "0x0427",
     "name_en": "PV3 power",
     "unit": "W",
     "type": "int32be",
@@ -94,7 +130,25 @@
     "frontend_type": "value"
   },
   {
-    "register": "0x429",
+    "register": "0x0425",
+    "name_en": "PV3 Voltage",
+    "unit": "V",
+    "type": "int16be",
+    "len": 1,
+    "factor": 0.1,
+    "frontend_type": "value"
+  },
+  {
+    "register": "0x0426",
+    "name_en": "PV3 Current",
+    "unit": "A",
+    "type": "int16be",
+    "len": 1,
+    "factor": 0.1,
+    "frontend_type": "value"
+  },
+  {
+    "register": "0x042B",
     "name_en": "PV4 power",
     "unit": "W",
     "type": "int32be",
@@ -103,7 +157,25 @@
     "frontend_type": "value"
   },
   {
-    "register": "0x435",
+    "register": "0x0429",
+    "name_en": "PV4 Voltage",
+    "unit": "V",
+    "type": "int16be",
+    "len": 1,
+    "factor": 0.1,
+    "frontend_type": "value"
+  },
+  {
+    "register": "0x042A",
+    "name_en": "PV4 Current",
+    "unit": "A",
+    "type": "int16be",
+    "len": 1,
+    "factor": 0.1,
+    "frontend_type": "value"
+  },
+  {
+    "register": "0x0435",
     "name_en": "Inverter Temperature",
     "unit": "°C",
     "type": "uint16be",
@@ -112,7 +184,7 @@
     "frontend_type": "value"
   },
   {
-    "register": "0x440",
+    "register": "0x0440",
     "name_en": "Inverter work mode",
     "unit": "",
     "type": "uint16be",
@@ -167,7 +239,7 @@
     ]
   },
   {
-    "register": "0x126",
+    "register": "0x0126",
     "name_en": "Battery Power",
     "unit": "W",
     "type": "int16be",
@@ -176,7 +248,7 @@
     "frontend_type": "value"
   },
   {
-    "register": "0x11A",
+    "register": "0x011A",
     "name_en": "Battery typ",
     "unit": "",
     "type": "uint16be",
@@ -231,7 +303,7 @@
     ]
   },
   {
-    "register": "0x102",
+    "register": "0x0102",
     "name_en": "Battery SOC",
     "unit": "%",
     "type": "uint16be",
@@ -240,7 +312,7 @@
     "frontend_type": "value"
   },
   {
-    "register": "0x43A",
+    "register": "0x043A",
     "name_en": "Interver fault1",
     "unit": "",
     "type": "uint16be",
@@ -283,7 +355,7 @@
     ]
   },
   {
-    "register": "0x43C",
+    "register": "0x043C",
     "name_en": "Interver fault2",
     "unit": "",
     "type": "uint16be",
@@ -326,7 +398,7 @@
     ]
   },
   {
-    "register": "0x44B",
+    "register": "0x044B",
     "name_en": "Interver fault extended1",
     "unit": "",
     "type": "uint16be",
@@ -354,7 +426,7 @@
     ]
   },
   {
-    "register": "0x44D",
+    "register": "0x044D",
     "name_en": "Interver fault extended2",
     "unit": "",
     "type": "uint16be",
@@ -364,7 +436,7 @@
     "bits": []
   },
   {
-    "register": "0x11C",
+    "register": "0x011C",
     "name_en": "Battery warning",
     "unit": "",
     "type": "uint16be",
@@ -384,7 +456,7 @@
     ]
   },
   {
-    "register": "0x11E",
+    "register": "0x011E",
     "name_en": "Battery fault",
     "unit": "",
     "type": "uint16be",
@@ -411,7 +483,7 @@
     ]
   },
   {
-    "register": "0x10",
+    "register": "0x0010",
     "name_en": "Total energyfeed to grid (Grid Meter)",
     "unit": "kWh",
     "type": "uint32be",
@@ -420,7 +492,7 @@
     "frontend_type": "value"
   },
   {
-    "register": "0x12",
+    "register": "0x0012",
     "name_en": "Total energy consume from grid (Grid Meter)",
     "unit": "kWh",
     "type": "uint32be",
@@ -429,7 +501,16 @@
     "frontend_type": "value"
   },
   {
-    "register": "0x43E",
+    "register": "0x0090",
+    "name_en": "Total energy feed to grid (PV)",
+    "unit": "kWh",
+    "type": "uint32be",
+    "len": 2,
+    "factor": 0.01,
+    "frontend_type": "value"
+  },
+  {
+    "register": "0x043E",
     "name_en": "Inverter Total PV Energy",
     "unit": "kWh",
     "type": "uint32be",
@@ -438,7 +519,7 @@
     "frontend_type": "value"
   },
   {
-    "register": "0x120",
+    "register": "0x0120",
     "name_en": "Battery charge energy",
     "unit": "kWh",
     "type": "uint32be",
@@ -447,7 +528,7 @@
     "frontend_type": "value"
   },
   {
-    "register": "0x122",
+    "register": "0x0122",
     "name_en": "Battery discharge energy",
     "unit": "kWh",
     "type": "uint32be",
@@ -456,12 +537,237 @@
     "frontend_type": "value"
   },
   {
-    "register": "0x124",
+    "register": "0x0124",
     "name_en": "Battery charge from grid",
     "unit": "kWh",
     "type": "uint32be",
     "len": 2,
     "factor": 0.1,
+    "frontend_type": "value"
+  },
+  {
+    "register": "0x084F",
+    "name_en": "Charging time period control",
+    "unit": "",
+    "type": "int16be",
+    "len": 1,
+    "factor": 1,
+    "frontend_type": "value"
+  },
+  {
+    "register": "0x0855",
+    "name_en": "Charging Cutoff SoC",
+    "unit": "%",
+    "type": "int16be",
+    "len": 1,
+    "factor": 1,
+    "frontend_type": "value"
+  },
+  {
+    "register": "0x0856",
+    "name_en": "Charging Period 1 Start Hour",
+    "unit": "h",
+    "type": "int16be",
+    "len": 1,
+    "factor": 1,
+    "frontend_type": "value"
+  },
+  {
+    "register": "0x085E",
+    "name_en": "Charging Period 1 Start Minute",
+    "unit": "m",
+    "type": "int16be",
+    "len": 1,
+    "factor": 1,
+    "frontend_type": "value"
+  },
+  {
+    "register": "0x0857",
+    "name_en": "Charging Period 1 Stop Hour",
+    "unit": "h",
+    "type": "int16be",
+    "len": 1,
+    "factor": 1,
+    "frontend_type": "value"
+  },
+  {
+    "register": "0x085F",
+    "name_en": "Charging Period 1 Stop Minute",
+    "unit": "m",
+    "type": "int16be",
+    "len": 1,
+    "factor": 1,
+    "frontend_type": "value"
+  },
+  {
+    "register": "0x0858",
+    "name_en": "Charging Period 2 Start Hour",
+    "unit": "h",
+    "type": "int16be",
+    "len": 1,
+    "factor": 1,
+    "frontend_type": "value"
+  },
+  {
+    "register": "0x0860",
+    "name_en": "Charging Period 2 Start Minute",
+    "unit": "m",
+    "type": "int16be",
+    "len": 1,
+    "factor": 1,
+    "frontend_type": "value"
+  },
+  {
+    "register": "0x0859",
+    "name_en": "Charging Period 2 Stop Hour",
+    "unit": "h",
+    "type": "int16be",
+    "len": 1,
+    "factor": 1,
+    "frontend_type": "value"
+  },
+  {
+    "register": "0x0861",
+    "name_en": "Charging Period 2 Stop Minute",
+    "unit": "m",
+    "type": "int16be",
+    "len": 1,
+    "factor": 1,
+    "frontend_type": "value"
+  },
+  {
+    "register": "0x0850",
+    "name_en": "Discharging Cutoff SoC",
+    "unit": "%",
+    "type": "int16be",
+    "len": 1,
+    "factor": 1,
+    "frontend_type": "value"
+  },
+  {
+    "register": "0x0851",
+    "name_en": "Discharging Period 1 Start Hour",
+    "unit": "h",
+    "type": "int16be",
+    "len": 1,
+    "factor": 1,
+    "frontend_type": "value"
+  },
+  {
+    "register": "0x085A",
+    "name_en": "Discharging Period 1 Start Minute",
+    "unit": "m",
+    "type": "int16be",
+    "len": 1,
+    "factor": 1,
+    "frontend_type": "value"
+  },
+  {
+    "register": "0x0852",
+    "name_en": "Discharging Period 1 Stop Hour",
+    "unit": "h",
+    "type": "int16be",
+    "len": 1,
+    "factor": 1,
+    "frontend_type": "value"
+  },
+  {
+    "register": "0x085B",
+    "name_en": "Discharging Period 1 Stop Minute",
+    "unit": "m",
+    "type": "int16be",
+    "len": 1,
+    "factor": 1,
+    "frontend_type": "value"
+  },
+  {
+    "register": "0x0853",
+    "name_en": "Discharging Period 2 Start Hour",
+    "unit": "h",
+    "type": "int16be",
+    "len": 1,
+    "factor": 1,
+    "frontend_type": "value"
+  },
+  {
+    "register": "0x085C",
+    "name_en": "Discharging Period 2 Start Minute",
+    "unit": "m",
+    "type": "int16be",
+    "len": 1,
+    "factor": 1,
+    "frontend_type": "value"
+  },
+  {
+    "register": "0x0854",
+    "name_en": "Discharging Period 2 Stop Hour",
+    "unit": "h",
+    "type": "int16be",
+    "len": 1,
+    "factor": 1,
+    "frontend_type": "value"
+  },
+  {
+    "register": "0x085D",
+    "name_en": "Discharging Period 2 Stop Minute",
+    "unit": "m",
+    "type": "int16be",
+    "len": 1,
+    "factor": 1,
+    "frontend_type": "value"
+  },
+  {
+    "register": "0x0880",
+    "name_en": "Dispatch Start",
+    "unit": "",
+    "type": "int16be",
+    "len": 1,
+    "factor": 1,
+    "frontend_type": "value"
+  },
+  {
+    "register": "0x0881",
+    "name_en": "Dispatch Active Power",
+    "unit": "W",
+    "type": "int32be",
+    "len": 1,
+    "factor": 1,
+    "frontend_type": "value"
+  },
+  {
+    "register": "0x0883",
+    "name_en": "Dispatch Reactive Power",
+    "unit": "W",
+    "type": "int32be",
+    "len": 1,
+    "factor": 1,
+    "frontend_type": "value"
+  },
+  {
+    "register": "0x0885",
+    "name_en": "Dispatch Mode",
+    "unit": "W",
+    "type": "int16be",
+    "len": 1,
+    "factor": 1,
+    "frontend_type": "value"
+  },
+  {
+    "register": "0x0885",
+    "name_en": "Dispatch SoC",
+    "unit": "%",
+    "type": "int16be",
+    "len": 1,
+    "factor": 0.4,
+    "frontend_type": "value"
+  },
+  {
+    "register": "0x0887",
+    "name_en": "Dispatch Time",
+    "unit": "sec",
+    "type": "uint32be",
+    "len": 2,
+    "factor": 1,
     "frontend_type": "value"
   }
 ]
